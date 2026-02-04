@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobby Choudhary | software Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HAMBURGER BUTTON (Mobile only) -->
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+
+    <nav class="sidebar">
+        <div class="profile-section">
+            <img src="images/profile picture.png" alt="Bobby Choudhary" class="profile-img">
+            <h2 class="profile-name">ER.Bobby Choudhary</h2>
+            <h6 style="color: white;">Information Technology Engineer</h6>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="#services" class="nav-link"><i class="fas fa-briefcase"></i> What I Do</a></li>
+                <li><a href="#resume" class="nav-link"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#portfolio" class="nav-link"><i class="fas fa-th-large"></i> Portfolio</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+
+        </div>
+        <div class="sidebar-social">
+            <a href="https://www.linkedin.com/in/bobbychoudhary07/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/BobbyChoudhary7707"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Ravan71202"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mr_bobby_choudhary_/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </nav>
+    <div class="main-content">
+        <section id="home" class="hero">
+
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="images/HelloWorld.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="welcome-text">Welcome</p>
+                <h1>I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+                <p class="sub-text">Python Specialist | Frontend Developer</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn-solid">My Work</a>
+                    <a href="#contact" class="btn-outline">Hire Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="header-container">
+                <h2 class="watermark">ABOUT ME</h2>
+                <h3 class="front-title">Know Me More</h3>
+                <div class="underline"></div>
+            </div>
+            <div class="about-flex">
+                <div class="about-left">
+                    <h2>I'm <span class="green">Bobby Choudhary</span>,Software Developer</h2>
+                    <p>
+I am an Information Technology Engineering graduate (2025) with hands-on experience in software development, web technologies, and data analytics. I have worked with Python, SQL, HTML, CSS, JavaScript, React.js, and PostgreSQL, along with practical exposure to Machine Learning, NLP, IoT, and data visualization through academic and real-world projects.
+<br><br>
+I completed an AICTE & ICAC-approved Python Developer internship, works as Python Developer where I contributed to application development, debugging, and data handling while working in an Agile development environment. I enjoy building scalable, user-focused solutions and continuously enhancing my technical skills while exploring modern software development practices.
+</p>
+
+                </div>
+                <div class="about-right">
+                    <ul class="info-list">
+                        <li><strong>Name:</strong> Bobby Choudhary</li>
+                        <li>
+                            <strong>Email:</strong>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bobbychoudhary321@gmail.com&su=Inquiry&body=Hello Bobby,"
+                                target="_blank" class="email-link green">
+                                bobbychoudhary321@gmail.com
+                            </a>
+                        </li>
+                        <li><strong>Age:</strong> 23</li>
+                        <li><strong>From:</strong> India</li>
+                    </ul>
+                    <br>
+                    <a href="images/BobbyChoudhary -Resume.pdf" class="btn-solid-lg">
+                        Download CV
+                        <span class="particles">
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h2 class="stat-count">15+</h2>
+                    <p>Technologies</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-count">20+</h2>
+                    <p>REST APIs</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-count">5+</h2>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-count">25+</h2>
+                    <p>Git</p>
+                </div>
+            </div>
+        </section>
+
+       <section id="services" class="section gray-bg">
+    <div class="header-container">
+        <h2 class="watermark">SERVICES</h2>
+        <h3 class="front-title">What I Do?</h3>
+        <div class="underline"></div>
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-palette"></i></div>
+            <div class="service-info">
+                <h4>Frontend Development</h4>
+                <p>Building robust and scalable frontend applications using HTML, CSS, JavaScript, and modern frameworks like React.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-desktop"></i></div>
+            <div class="service-info">
+                <h4>Python Development</h4>
+                <p>
+                    I enjoy building efficient Python applications, working with databases, and solving real-world problems.
+                    <strong>Python:</strong> Django, Pandas, NumPy
+                </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-pencil-ruler"></i></div>
+            <div class="service-info">
+                <h4>Software Development</h4>
+                <p>
+                    Strong understanding of SDLC including requirement analysis, planning,
+                    design, development, testing, deployment, and maintenance.
+                </p>
+                <p><strong>Models:</strong> Agile & Waterfall</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="service-info">
+                <h4>Database Management</h4>
+                <p>Designing and managing databases using MongoDB and PostgreSQL.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+            <div class="service-info">
+                <h4>Data Analytics</h4>
+                <p>
+                    Data analysis & visualization using Python (NumPy, Pandas),
+                    Power BI, and MS Excel to extract insights and trends.
+                </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-icon"><i class="fab fa-figma"></i></div>
+            <div class="service-info">
+                <h4>UI/UX Design</h4>
+                <p>
+                    Designing clean, intuitive, and visually appealing user interfaces
+                    using tools like Figma and Canva.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        <section id="resume" class="section">
+            <div class="header-container">
+                <h2 class="watermark">SUMMARY</h2>
+                <h3 class="front-title">Resume</h3>
+                <div class="underline"></div>
+            </div>
+            <div class="resume-wrapper">
+                <div class="resume-column">
+                    <h3 class="resume-title">My Education</h3>
+                    <div class="resume-item">
+                        <span class="date-badge">2022 - 2025</span>
+                        <h4>Bachelor in Engineering--Information Technology</h4>
+                        <p class="sub-text green"><a href="https://www.ssgmce.ac.in/" target="_blank">Shri Sant Gajanan Maharaj College of Engineering Shegaon,M.H</a></p>
+                        <p>Specialized in Software Development, Data Structures,Python Development,Frontend Development and Object-Oriented Programming (OOPs).
+                        </p>
+                    </div>
+                    <div class="resume-item">
+                        <span class="date-badge">2020 - 2021</span>
+                        <h4>Senior Secondary (XII)</h4>
+                        <p class="sub-text green"> <a href="https://www.sttheresaburhanpur.org/" target="_blank">St Theresa's Hr Sec School, Burhanpur</a></p>
+                        <p>Achieved 69% with a focus on Mathematics,physics Chemistry and Computer Applications.</p>
+                    </div>
+                    <div class="resume-item">
+                        <span class="date-badge">2019 - 2018</span>
+                        <h4>Higher Secondary (X)</h4>
+                        <p class="sub-text green"><a href="https://www.sttheresaburhanpur.org/" target="_blank">St Theresa's Hr Sec School, Burhanpur</a></p>
+                        <p>Achieved 65% Gernal Subject and Computer Applications.</p>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-title">My Experience</h3>
+                    <div class="resume-item">
+                        <span class="date-badge">June-2025-Aug 2025</span>
+                        <h4> Codec Technologies Pvt. Ltd.</h4>
+                        <p class="sub-text green">Python Developer Intern</p>
+                        <p>Completed an AICTE & ICAC-approved internship focused on  <strong>Python-based application development.</strong>
+                            Worked on coding, debugging, data handling, and logic building for real-world applications. Collaborated with cross-functional teams following <strong>Agile development practices.</strong>
+                        </p>
+                    </div>
+                    <div class="resume-item">
+                        <span class="date-badge">Aug-2024 - Aug-2024</span>
+                        <h4>TATA Technologies</h4>
+                        <p class="sub-text green">Tata Virtual Internship – Data Visualization</p>
+                        <p>Designed interactive <STRONG>Power BI</STRONG> dashboards to analyze business data Improved decision-making efficiency by 20% using data-driven insights
+                        </p>
+                    </div>
+                    <div class="resume-item">
+                        <span class="date-badge">2020 - Present</span>
+                        <h4>Gulal ke Raja-Gulal</h4>
+                        <p class="sub-text green">Entrepreneurship & Business Development</p>
+                        <p> I am CEO of Small scale business in my city Managed a small-scale business focused on selling traditional sweets and snacks. Developed marketing strategies and improved customer engagement through social media and local promotions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <section id="portfolio" class="section gray-bg">
+    <div class="header-container">
+        <h2 class="watermark">PORTFOLIO</h2>
+        <h3 class="front-title">My Work</h3>
+        <div class="underline"></div>
+    </div>
+
+    <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <div class="portfolio-item">
+            <div class="img-wrapper">
+                <img src="images/Gemini_Generated_Image_9f8x6j9f8x6j9f8x.png" alt="Project 1">
+                <div class="overlay">
+                    <h4>Portfolio Website</h4>
+                    <div class="project-actions">
+                        <a href="#" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-circle"></i>
+                            <span>Live</span>
+                        </a>
+                        <a href="https://github.com/BobbyChoudhary7707/PORTFOLIO" class="project-btn git-btn" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item tall">
+            <div class="img-wrapper">
+                <img src="images/Screenshot 2026-01-05 151712.png" alt="Project 2">
+                <div class="overlay">
+                    <h4>The Mad Driver Bobby </h4>
+                    <div class="project-actions">
+                        <a href="https://unique-hummingbird-b833e7.netlify.app/" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-circle"></i>
+                            <span>Live</span>
+                        </a>
+                        <a href="https://github.com/BobbyChoudhary7707/-The-Mad-Driver-" class="project-btn git-btn" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item">
+            <div class="img-wrapper">
+                <img src="images/project 3.png" alt="Project 3">
+                <div class="overlay">
+                    <h4>Sentiment Analysis</h4>
+                    <div class="project-actions">
+                        <a href="#" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-circle"></i>
+                            <span>Live</span>
+                        </a>
+                        <a href="https://github.com/BobbyChoudhary7707/SENTIMENT-ANALYSIS-OF-ECOMMERCE-WEBSITE-PRODUCT-REVIEW"
+                           class="project-btn git-btn" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-item">
+            <div class="img-wrapper">
+                <img src="images/beautician webiste project.png" alt="Project 4">
+                <div class="overlay">
+                    <h4>Beautician Webiste</h4>
+                    <div class="project-actions">
+                        <a href="#" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-circle"></i>
+                            <span>Live</span>
+                        </a>
+                        <a href="#" class="project-btn git-btn" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-item tall">
+            <div class="img-wrapper">
+                <img src="images/dustbin project.png" alt="Project 5">
+                <div class="overlay">
+                    <h4>IOT Project</h4>
+                    <div class="project-actions">
+                        <a href="#" class="project-btn live-btn" target="_blank">
+                            <i class="fas fa-circle"></i>
+                            <span>Live</span>
+                        </a>
+                        <a href="https://github.com/BobbyChoudhary7707/-Digital-Dustbin-using-IoT" class="project-btn git-btn" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--
+____________________________________________________________________________________________________________________________________________________
+-->
+<section id="certifications" class="section light-bg">
+    <div class="header-container">
+        <h2 class="watermark">ACHIEVEMENTS</h2>
+        <h3 class="front-title">Certifications & Publications</h3>
+        <div class="underline"></div>
+    </div>
+
+    <div class="cert-grid">
+
+        <!-- Certification 1 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/Screenshot 2026-02-02 204301.png" alt="Python Certification">
+                <div class="cert-overlay">
+                    <h4>Python Programming</h4>
+                    <p>Issued by udemy</p>
+
+                    <div class="cert-actions">
+                        <a href="images/Screenshot 2026-02-02 204301.png" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://www.udemy.com/" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Certification 2
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/powerbi certificate.jfif" alt="Research Publication">
+                <div class="cert-overlay">
+                    <h4>Data Analytics-PowerBI</h4>
+                    <p>Issued by skillcourse</p>
+                    <div class="cert-actions">
+                        <a href="images/powerbi certificate.jfif" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://skillcourse.in/" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Certification 3 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/powerbi certificate.jfif" alt="Data Analytics Certificate">
+                <div class="cert-overlay">
+                    <h4>Data Analytics-PowerBI</h4>
+                    <p>Issued by skillcourse</p>
+
+                    <div class="cert-actions">
+                        <a href="images/powerbi certificate.jfif" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://skillcourse.in/" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Publication -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/Review paper certifcate 1.jfif" alt="Research Publication">
+                <div class="cert-overlay">
+                    <h4>Research Paper</h4>
+                    <p>Published in ICETPS Journal</p>
+
+                    <div class="cert-actions">
+                        <a href="https://ijsrst.com/IJSRST2512863?utm_source=chatgpt.com" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Paper
+                        </a>
+                        <a href="https://ijsrst.com/IJSRST2512863?utm_source=chatgpt.com" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+           <!-- Publication  2-->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/RP2.jfif" alt="Research Publication">
+                <div class="cert-overlay">
+                    <h4>Research Paper</h4>
+                    <p>Published in SSGM Journal</p>
+
+                    <div class="cert-actions">
+                        <a href="https://ssgmjournal.in/index.php/ssgm/article/view/146" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Paper
+                        </a>
+                        <a href="https://ssgmjournal.in/index.php/ssgm/home" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!--
+____________________________________________________________________________________________________________________________________________________
+-->
+<section id="coordination" class="section light-bg">
+    <div class="header-container">
+        <h2 class="watermark">COORDINATION</h2>
+        <h3 class="front-title">Leadership & Responsibilities</h3>
+        <div class="underline"></div>
+    </div>
+
+    <div class="cert-grid">
+
+        <!-- Coordination 1 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/acm certificate.pdf.png" alt="ACM Chairperson Certificate">
+                <div class="cert-overlay">
+                    <h4>Chairperson – ACM Student Chapter</h4>
+                    <p>Academic Year: 2023 – 2024</p>
+
+                    <div class="cert-actions">
+                        <a href="images/acm certificate.pdf.png" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://www.ssgmce.ac.in/ACM/index.html" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coordination 2 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/pursuit certificate.png" alt="Technical Event Coordinator">
+                <div class="cert-overlay">
+                    <h4>Pursuit Head Student Coordinator 2025</h4>
+                    <p>College Technical Fest</p>
+
+                    <div class="cert-actions">
+                        <a href="images/pursuit certificate.png" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://www.ssgmce.ac.in/pursuit2025/" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coordination 3 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/innovo certificate.png" alt="Workshop Coordinator">
+                <div class="cert-overlay">
+                    <h4> Innovo24</h4>
+                    <p>Project-Expo Head-Coordinator</p>
+
+                    <div class="cert-actions">
+                        <a href="images/innovo certificate.png" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://www.ssgmce.ac.in/" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!-- Coordination 4 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/iste certifiate.png" alt="Technical Event Coordinator">
+                <div class="cert-overlay">
+                    <h4>ISTE-Joint Treasurer</h4>
+                    <p>Academic Year: 2023 – 2024</p>
+
+                    <div class="cert-actions">
+                        <a href="images/iste certifiate.png" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://www.ssgmce.ac.in/iste/iste.html" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Coordination 5 -->
+        <div class="cert-card">
+            <div class="cert-img">
+                <img src="images/uba certificate.png" alt="Technical Event Coordinator">
+                <div class="cert-overlay">
+                    <h4>UBA-SSGMCE-StudentSecretary</h4>
+                    <p>Academic Year: 2022 – 2024</p>
+
+                    <div class="cert-actions">
+                        <a href="images/uba certificate.png" class="cert-btn view-btn" target="_blank">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </a>
+                        <a href="https://www.ssgmce.ac.in/unnatbharat/UBA.html" class="cert-btn site-btn" target="_blank">
+                            <i class="fas fa-link"></i> Visit Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>   
+
+<!-----------------------===----------------------------------------------------------------------------------------------------------------------------------->
+<section id="hobbies" class="section gray-bg">
+    <div class="header-container">
+        <h2 class="watermark">HOBBIES</h2>
+        <h3 class="front-title">What I Love to Do</h3>
+        <div class="underline"></div>
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-code"></i></div>
+            <div class="service-info">
+                <h4>Coding</h4>
+                <p>Exploring new technologies, building side projects, and improving problem-solving skills.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-book-reader"></i></div>
+            <div class="service-info">
+                <h4>Learning New Technologies</h4>
+                <p>Continuously learning about software development, AI, cloud tools, and modern frameworks.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-microphone-alt"></i></div>
+            <div class="service-info">
+                <h4>Public Speaking</h4>
+                <p>Hosting events, presenting technical topics, and communicating ideas clearly to teams.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-music"></i></div>
+            <div class="service-info">
+                <h4>Listening to Music</h4>
+                <p>Listening to music to relax, refresh the mind, and improve focus while working.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-chess"></i></div>
+            <div class="service-info">
+                <h4>Problem Solving</h4>
+                <p>Enjoy logical puzzles, competitive programming, and analytical challenges.</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon"><i class="fas fa-futbol"></i></div>
+            <div class="service-info">
+                <h4>Playing Outdoor Games</h4>
+                <p>Playing outdoor games to stay active, build teamwork skills, and enjoy nature
+                    Specially Basketball and Cricket.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--
+____________________________________________________________________________________________________________________________________________________
+-->
+
+        <section id="contact" class="section">
+            <div class="header-container">
+                <h2 class="watermark">CONTACT</h2>
+                <h3 class="front-title">Get in Touch</h3>
+                <div class="underline"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card-wrapper">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Burhanpur, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Call Me</h4>
+                            <p>+91 7828464540</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-paper-plane"></i></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:bobbychoudhary321@gmail.com" class="email-link">bobbychoudhary321@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="contact-form-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+        <!-- ✅ CORRECT ACCESS KEY -->
+        <input type="hidden" name="access_key" value="04691006-a638-4e25-818e-427216bacb29">
+
+        <!-- ✅ IMPORTANT META FIELDS -->
+        <input type="hidden" name="from_name" value="Bobby Choudhary Portfolio">
+        <input type="hidden" name="replyto" value="%email%">
+        <input type="hidden" name="subject" value="New Portfolio Contact Message">
+
+        <div class="form-row">
+            <div class="input-group">
+                <input type="text" name="name" required>
+                <label>Full Name</label>
+            </div>
+            <div class="input-group">
+                <input type="email" name="email" required>
+                <label>Email Address</label>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <input type="text" name="user_subject" required>
+            <label>Subject</label>
+        </div>
+
+        <div class="input-group">
+            <textarea name="message" rows="4" required></textarea>
+            <label>How can I help you?</label>
+        </div>
+
+        <button type="submit" class="btn-send">
+            Get in Touch <i class="fas fa-paper-plane"></i>
+        </button>
+
+    </form>
+</div>
+            </div>
+        </section>
+    </div>
+
+    <div class="wa-container">
+        <div class="wa-popup" id="wa-popup">
+            <div class="wa-header">
+                <div class="wa-profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Bobby+Rupesh+Choudhary&background=25D366&color=fff" alt="Profile">
+                    <span class="online-dot"></span>
+                </div>
+                <div class="wa-header-info">
+                    <h5 class="wa-name"> Bobby Choudhary</h5>
+                    <span class="wa-name">Let's Talk!</span>
+                    <span class="wa-status">Available for projects</span>
+                </div>
+                <button class="wa-close" id="wa-close-btn">&times;</button>
+            </div>
+            <div class="wa-body">
+                <div class="wa-chat-bubble">
+                    Hey! Thanks for visiting my portfolio. I'm usually online. How can I help you today? 😊
+                </div>
+                <a href="https://wa.me/qr/ROLBBD7BUZL5F1" target="_blank" class="wa-action-btn">
+                    <i class="fab fa-whatsapp"></i> Send Message
+                </a>
+            </div>
+        </div>
+
+        <button class="wa-trigger" id="wa-main-btn">
+            <div class="wa-inner-circle">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="wa-pulse"></div>
+        </button>
+    </div>
+
+
+
+
+    <footer class="portfolio-footer">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>About Me</h3>
+                <p><strong>Bobby Choudhary</strong></p>
+                <p>
+                    <a href="https://en.wikipedia.org/wiki/Software_development" target="_blank">Software Developer</a>
+                    <a href="https://en.wikipedia.org/wiki/Front_end" target="_blank">Frontend Developer</a>
+                </p>
+
+                <p>
+                    I build scalable
+                    <a href="https://en.wikipedia.org/wiki/API" target="_blank">APIs</a>
+                    &
+                    <a href="https://en.wikipedia.org/wiki/Back_end" target="_blank">backend systems</a>.
+                </p>
+
+            </div>
+
+            <div class="footer-col">
+                <h3>Skills</h3>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>
+                    </li>
+                    <li><a href="https://en.wikipedia.org/wiki/FRONTEND_DEVELOPMENT" target="_blank">Frontend Development</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank">POSTGRELSQL</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/DATA_ANALYTIC" target="_blank">Data analytics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                     SENTIMENT-ANALYSIS Project
+                    </li>
+
+                    <li>
+                     -The-Mad-Driver- (Car Game)
+                    </li>
+
+                    <li>
+                            Portfolio Website
+                    </li>
+
+                    <li>
+                        
+                          IOT Based Project
+                        
+                    </li>
+                     <li>
+                        
+                          MANY MORE
+                        
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bobbychoudhary321@gmail.com"
+                            target="_blank">Email</a>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/BobbyChoudhary7707" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/bobbychoudhary07/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/qr/ROLBBD7BUZL5F1" target="_blank">WhatsApp</a>
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Bobby Choudhary. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
