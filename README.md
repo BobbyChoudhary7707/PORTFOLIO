@@ -57,5 +57,3 @@ I am a passionate IT Engineer and Python Specialist with strong experience in bu
 
 ---
 
-## 📂 Project Structure
-
